@@ -1,4 +1,5 @@
 import { useState } from "react";
+import gif from "./assets/cute.gif"
 
 export default function ValentineApp() {
   const [yesSize, setYesSize] = useState(16);
@@ -67,7 +68,7 @@ export default function ValentineApp() {
           >
             {message}
           </h1>
-          <img src="./cute.gif" alt="" />
+          <img src={gif} alt="" />
           <div
             style={{
               fontSize: "1.5rem",
