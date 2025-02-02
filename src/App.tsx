@@ -52,6 +52,7 @@ export default function ValentineApp() {
   return (
     <div
       style={{
+        margin: "auto",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -59,6 +60,7 @@ export default function ValentineApp() {
         height: "100vh",
         backgroundColor: "#ffccd5",
         textAlign: "center",
+        padding: "15px"
       }}
     >
       {message ? (
